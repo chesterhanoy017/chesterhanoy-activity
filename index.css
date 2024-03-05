@@ -1,0 +1,40 @@
+body{
+   background-color: antiquewhite;
+
+}
+
+.container{
+    background-color: lightcoral;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 10px solid black;
+}
+
+.card{
+    background-color: lightblue;
+    border: 2px solid black;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.container .card .par{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;  
+    background-color: grey;
+    font-weight: bold;
+    border-radius: 50px;
+    
+}
+
+.container .card .parg{
+   text-align: center;
+}
+
+.card img{
+        width: 100%;
+        height: auto;
+}
